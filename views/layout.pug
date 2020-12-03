@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title= title
+    link(rel="stylesheet", href="/stylesheets/skeleton.css")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href="https://fonts.googleapis.com/css?family=Muli&display=swap", rel="stylesheet")
+    link(rel="stylesheet", href="/stylesheets/animate.css")
+    link(rel="stylesheet", href="/stylesheets/pixelcompare.min.css")
+
+  body
+    .background
+    include navbar
+    #content
+      block content
+    script(src="javascripts/jquery-3.4.1.min.js")
+    script(src="javascripts/pixi.min.js")
+    script(src="javascripts/shapes.js")
+    script(src="javascripts/backGround.js")
+    script(src="javascripts/navigation.js")
+    script(src="javascripts/pixelcompare.min.js")
